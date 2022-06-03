@@ -10,13 +10,13 @@ function add(a, b) {
   function divide(a, b) {
     return a / b;
   }
-  function increment(a){
-       let n=a
-       return a+1;
+  function increment(n){
+       //let n=a
+       return n+1;
   }
-  function decrement(a){
-    let n=a
-    return a-1;
+  function decrement(n){
+    //let n=a
+    return n-1;
   }
   function makeInt(n){
     return parseInt(n, 10);
